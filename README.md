@@ -10,3 +10,5 @@
 <h4>git config --global alias.cfg config --global</h4>
 <h3>Создание многострочных команд</h3>
 <h4>git config --global alias.sayhi '!echo "Hello"; echo "GIT"'</h4>
+
+
