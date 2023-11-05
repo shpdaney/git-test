@@ -49,6 +49,7 @@
 <h4>-v Просмотор списка веток</h4>
 </ul>
 <h4>git checkout 'Name or cache Ветки' Команда для перемещения HEAD на ветку</h4>
+<<<<<<< HEAD
 <h4>git checkout @{-1} //Вернет на ветку с которой был переход</h4>
 
 <br>
@@ -118,3 +119,10 @@
 <h4>Мой кастомный log<h4>
 <h4>git log --pretty="format:%C(yellow)%h %C(green)%cr %C(reset) | %C() %s%d %C(blue)[%an]"<h4>
 
+<br>
+
+<h3>7.1 - Cлияние - "Истинное" слияние и разрешение конфилктов git merge</h3>
+<h4>git merge Feature</h4>
+<ul>
+<h4>--abort отмена слияния</h4>
+</ul>
