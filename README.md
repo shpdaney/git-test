@@ -104,3 +104,17 @@
 	<li>git reset < /file > откат конкретного файла</li>
 </ul>
 
+<br>
+
+<h3>6.2 - Кастомизация вывода Log</h3>
+<h4>git log --pretty="format:%C(red)"<h4>
+<ul>
+	<li>%C(Color)</li>
+	<li>%h Хэш коротко</li>
+	<li>%cr Относительное время</li>
+	<li>%s%d Название коммита</li>
+	<li>%an Имя автора</li>
+</ul>
+<h4>Мой кастомный log<h4>
+<h4>git log --pretty="format:%C(yellow)%h %C(green)%cr %C(reset) | %C() %s%d %C(blue)[%an]"<h4>
+
